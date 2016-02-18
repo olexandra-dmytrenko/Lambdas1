@@ -5,7 +5,7 @@ package lambdas;
  */
 class MultipleInheritance implements Multiple1, Multiple2 {
 
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         MultipleInheritance multipleInheritance = new MultipleInheritance();
         Multiple1 m1 = new Multiple1() {
         };
